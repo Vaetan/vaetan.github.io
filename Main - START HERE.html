@@ -1,0 +1,230 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<title>Assignment 1 (Off-Campus)</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+	<!-- STYLING -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.css"/>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0/jquery.mobile-1.0.min.js"></script>
+
+<!--CENTER ALL TEXT FOR A CLEANER LOOK ON ALL APPLIANCES--!> 
+<style>
+
+h1 {text-align: center;}
+
+h2 {text-align: center;}
+
+h3 {text-align: center;} 
+
+h4 {text-align: center;}
+
+h5 {text-align: center;}
+
+
+
+</style>
+</head> 
+
+<body>
+
+<!-- HOME PAGE -->
+<section id="page1" data-role="page" data-theme="b">
+	<header data-role="header"><h1>Delightz Restaurant Mobile Application</h1></header>
+ 		<div data-role="content" class="content">
+			
+			<!-- LIST OF BUTTONS WITH LINKS TO THEIR PAGES -->
+ 			<center><img src="food.jpg" alt="food" style="width:700px;height:400px;"></center>
+ 			<p><a href="#page2" data-role="button">Menu</a></p>
+ 			<p><a href="#page3" data-role="button">Order / Make a Reservation</a></p>
+ 			<p><a href="#page4" data-role="button">About Us</a></p>
+ 			<p><a href="#page5" data-role="button">Feedback</a></p>
+ 			<p><a href="#page6" data-role="button">Developer</a></p>
+			 <p><a href="https://www.google.com.au/maps/place/216+Flinders+St,+Melbourne+VIC+3000/@-37.8172694,144.9671249,19z/data=!4m2!3m1!1s0x6ad642b6a18bee2f:0x875cc426b6b44e99" data-role="button">
+				     Find us on Google Maps</a></p>
+ 		</div>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+
+<!-- END HOME PAGE -->
+
+<!-- PAGE 2: THE MENU -->
+<section id="page2" data-role="page" data-theme="c">
+	<header data-role="header"><h1>Menu</h1></header>
+	<h3>The Menu</h3>
+
+<!-- LIST OF MENU ITEMS -->
+<ul data-role="listview">
+
+<!-- BREAKFAST MENU WITH LINKS TO EXTERNAL PAGES -->
+ <li>Breakfasts
+ 	<ul>
+<!-- PICTURE AND TEXT LINKS TO INDIVIDUAL PAGES WITH PICTURE/RECIPE -->
+		<li><a href="pancake.html" target="_self"><img src="pancake.png" alt="pancake" style="width:600px;height:400px;"><br>Pancakes</a></li>
+		<li><a href="toast.html" target="_self"><img src="toast.jpg" alt="toast" style="width:300px;height:250px;"><br>French Toast</a></li>
+		<li><a href="omelette.html" target="_self"><img src="omelette.jpg" alt="omelette" style="width:300px;height:250px;"><br>Omelettes</a></li>
+ 	</ul>
+ </li>
+
+<!-- LUNCH MENU WITH LINKS TO EXTERNAL PAGES -->
+ <li>Lunches
+ 	<ul>
+		<li><a href="fishandchips.html" target="_self"><img src="fishandchips.jpg" alt="fishandchips" style="width:300px;height:250px;"><br>Fish and Chips</a></li>
+		<li><a href="sandwich.html" target="_self"><img src="sandwich.jpg" alt="sandwich" style="width:300px;height:250px;"><br>Sandwiches</a></li>
+		<li><a href="hamburger.html" target="_self"><img src="hamburger.jpg" alt="hamburger" style="width:300px;height:250px;"><br>Hamburgers</a></li>
+ </ul>
+ </li>
+
+<!-- DINNER MENU WITH LINKS TO EXTERNAL PAGES -->
+<li>Dinners
+ 	<ul>
+		<li><a href="spaghetti.html" target="_self"><img src="spaghetti.jpg" alt="spaghetti" style="width:300px;height:250px;"><br>Spaghetti</a></li>
+		<li><a href="pasta.html" target="_self"><img src="pasta.jpg" alt="pasta" style="width:300px;height:250px;"><br>Pastas</a></li>
+		<li><a href="pizza.html" target="_self"><img src="pizza.png" alt="pizza" style="width:300px;height:250px;"><br>Pizza</a></li>
+</ul>
+</li>
+
+<!-- APPETISER MENU -->
+<li>Appetisers
+	<ul>
+		<li>Garlic Bread</li>
+		<li>Potato Wedges</li>
+		<li>Salad</li>
+		<li>Bread Rolls</li>
+		<li>Nuggets</li>
+		<li>French Fries</li>
+ 	</ul>
+</li>
+
+<!-- DESSERT MENU -->
+<li>Desserts
+ <ul>
+		<li>Chocolate Cake</li>
+		<li>Custard</li>
+		<li>Ice Cream</li>
+	</ul>
+</li>
+
+<!-- DRINK MENU -->
+<li>Drinks
+	<ul>
+		<li>Milkshakes</li>
+		<li>Ginger Beer</li>
+		<li>Soft Drinks</li>
+ </ul>
+ </li>
+
+ <!--RETURN TO HOME MENU BUTTON ADDED TO BOTTOM OF ALL PAGES-->
+	<p><a href="#page1" data-role="button" data-icon="home" data-iconpos="left">Home</a></p>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+<!-- END PAGE 2: THE MENU -->
+
+<!-- PAGE 3:CLICK-TO-CALL -->
+<section id="page3" data-role="page">
+	<header data-role="header"><h1>Click-To-Call</h1></header>
+		<div data-role="content" class="content">
+
+<!--CALL TELEPHONE (I USED MY NUMBER AND REPLACED LAST DIGIT WITH ASTERISK IN THE TEL CODE)-->
+		<p><a href="tel:5561 786*" data-role="button">Call: Order</a></p>
+		<p><a href="tel:5561 786*" data-role="button">Call: Reservation</a></p>
+		<p><a href="tel:5561 786*" data-role="button">Call: Information</a></p>
+		</div>
+	<p><a href="#page1" data-role="button" data-icon="home" data-iconpos="left">Home</a></p>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+<!-- END PAGE 3: CLICK-TO-CALL -->
+
+<!-- PAGE 4: ABOUT US -->
+<section id="page4" data-role="page">
+	<header data-role="header"><h1>About Us</h1></header>
+		<div>
+ 
+<!--INFORMATION FOR ABOUT US PAGE -->
+			<h5>Welcome to the Delightz Mobile App! For amazing food, drinks and experiences, 
+			Delightz is your prime destination! </h5>
+			<h5>We are a friendly local restaurant, serving at any time of day. Please drop 
+    			 in at our store located at ---, or call us via our Click-To-Call menu option.</h5>
+			<h5>We are currently hiring! If you are interested in working for Delightz, please
+    			 hand in your résumé with attached cover letter to Jane Doe.</h5>
+			<ul data-role="listview">
+				<li>Email: 	delightz@email.com</li>
+				<li>Phone: 	5561 7869</li>
+				<li>Location:	216 Flinders Street, Melbourne, Victoria 3000</li>
+				<li></li>
+				<li>Manager:	Jane Doe</li>
+				<li>Legal:	Joseph Dolar</li>
+				<li>Supervisor:	Harry Jones</li>
+			</ul>
+
+
+ 		</div>
+	<p><a href="#page1" data-role="button" data-icon="home" data-iconpos="left">Home</a></p>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+<!-- END PAGE 4: ABOUT US -->
+
+<!-- PAGE 5: FEEDBACK-->
+<section id="page5" data-role="page">
+	<header data-role="header"><h1>About Us</h1></header>
+		<h5> Do you have a complaint, a suggestion, or maybe just want to tell us what you like about us?
+		Leave us feedback so we can improve our customer experience! 
+<!-- FEEDBACK FORM -->
+ 	<br>
+ 	<br>
+ 	<form>
+ 		&nbsp;Customer Name (Optional): <br>
+ 		<input type="text" name="cname">
+ 		<br>
+ 		&nbsp;Contact Information (Optional): <br>
+ 		<input type="text" name="cinfo"
+ 		<br> <br>
+ 		&nbsp;Feedback: <br>
+ 		<input type="text" name="feedback">
+ 		<br> 
+ 		<br>
+		&nbsp;Rate your experience!: <br>
+		<input type="range" id="slider" name="slider" min="0" max="10">
+		<input type="submit" value="Submit">
+		<br>
+		<br>
+		
+	</form>
+	<p><a href="#page1" data-role="button" data-icon="home" data-iconpos="left">Home</a></p>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+<!-- END PAGE 5: FEEDBACK -->
+
+<!-- PAGE 6: DEVELOPER-->
+<section id="page6" data-role="page">
+	<header data-role="header"><h1>Developer</h1></header>
+		<div> 
+ 		<h5>Mobile Application developed by Ethan Keilar</h5>
+ 			<ul data-role="listview">
+				<li>Email: 	ethan.keilar@hotmail.com</li>
+				<li>Phone: 	0437 770 167</li>
+				<li>Student Number: 	212178304	</li>
+			</ul>
+
+
+ 	</div>
+	<p><a href="#page1" data-role="button" data-icon="home" data-iconpos="left">Home</a></p>
+	<footer data-role="footer"><h1>Delightz : Ethan Keilar 212178304</h1></footer>
+</section>
+
+<!-- END PAGE 6: DEVELOPER -->
+</body>
+</html>
+
+<!-- PICTURE REFERENCES
+Title Picture: http://wallfon.com/walls/others/delicious-food.jpg
+Pancake: http://www.ihop.com/menus/main-menu/pancakes/-/media/ihop/MenuItems/Pancakes/Harvest%20Grain%20and%20Nut%20Pancakes/Harvest_Grain_Nut_Pancakes.png?mh=367
+French Toast: http://i.ytimg.com/vi/RLu1GXIZqrI/maxresdefault.jpg
+Omelette: http://i.ytimg.com/vi/RLu1GXIZqrI/maxresdefault.jpg
+Fish and Chips: http://alapizza.co.uk/product_images/a/572/fish_and_chips__50176.jpg
+Hamburger: https://consumeraffairs.global.ssl.fastly.net/files/cache/news/hamburger_medium.jpg
+Spaghetti: http://www.oakparkonline.org/alpha/wp-content/uploads/2012/09/spaghetti.jpg
+Pasta: http://www.eatgood4life.com/wp-content/uploads/2014/04/fired-roasted-pasta.jpg
+Pizza: http://www.nicolapizza.com/img/pizza.png
+-->
